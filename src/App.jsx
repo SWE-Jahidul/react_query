@@ -1,6 +1,5 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
+import { QueryClientProvider,QueryClient } from 'react-query';
 import { SuperHerosPage } from "./components/SuperHero.page";
 import { RQSuperHerosPage } from "./components/RQSuperHeros.page";
 import { HomePage } from "./components/Home.page";
@@ -13,6 +12,8 @@ import {
   Link,
 } from "react-router-dom";
 
+
+const queryClinet = new QueryClient()
 function App() {
   const router = createBrowserRouter([
     {
@@ -53,7 +54,10 @@ function App() {
   ]);
 
   createRoot(document.getElementById("root")).render(
-    <RouterProvider router={router} />
+    <QueryClientProvider client={queryClinet}>
+      <RouterProvider router={router} />
+    </QueryClientProvider>
+    
   );
 }
 
