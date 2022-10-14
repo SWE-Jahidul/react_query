@@ -1,8 +1,9 @@
 import "./App.css";
-import { QueryClientProvider,QueryClient } from 'react-query';
+import { QueryClientProvider, QueryClient } from "react-query";
 import { SuperHerosPage } from "./components/SuperHero.page";
 import { RQSuperHerosPage } from "./components/RQSuperHeros.page";
 import { HomePage } from "./components/Home.page";
+import { ReactQueryDevtools } from "react-query/devtools";
 
 import { createRoot } from "react-dom/client";
 import {
@@ -12,8 +13,7 @@ import {
   Link,
 } from "react-router-dom";
 
-
-const queryClinet = new QueryClient()
+const queryClinet = new QueryClient();
 function App() {
   const router = createBrowserRouter([
     {
@@ -54,10 +54,11 @@ function App() {
   ]);
 
   createRoot(document.getElementById("root")).render(
-    <QueryClientProvider client={queryClinet}>
+    <QueryClientProvider client={queryClinet}> 
       <RouterProvider router={router} />
+
+      <ReactQueryDevtools initialIsOpen={false} position='bottom-right'/>
     </QueryClientProvider>
-    
   );
 }
 
