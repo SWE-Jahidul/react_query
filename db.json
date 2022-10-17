@@ -15,6 +15,66 @@
             "name": "Wonder Women",
             "alterEgo": "Princess Diana"
         }
+    ],
+    "friends": [
+        {
+            "id": 1,
+            "name": "Chandler Bing "
+        },
+        {
+            "id": 2,
+            "name": "Joye Tribbiani"
+        },
+        {
+            "id": 3,
+            "name": "Rachel Green"
+        }
+    ],
+    "users": [
+        {
+            "id": "vishwas@example.com",
+            "channelId": "codevoluation"
+        }
+    ],
+    "channels": [
+        {
+            "id": "codevoluation",
+            "courses": [
+                "react",
+                "vue",
+                "angular"
+            ]
+        }
+    ],
+    "colors" :[
+        {
+            "id" :1 ,
+            "label" : "Red"
+        },
+        {
+            "id" :2 ,
+            "label" : "Blue"
+        },
+        {
+            "id" :3 ,
+            "label" : "Green"
+        },
+        {
+            "id" :4 ,
+            "label" : "Yellow"
+        },
+        {
+            "id" :5 ,
+            "label" : "Black"
+        },
+        {
+            "id" :6 ,
+            "label" : "purpole"
+        }
+        ,
+        {
+            "id" :7,
+            "label" : "white smoke "
+        }
     ]
 }
-
