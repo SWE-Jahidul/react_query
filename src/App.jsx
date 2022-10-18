@@ -17,6 +17,7 @@ import { ParallelQueriesQueriesPage } from "./components/ParallelQueries.page";
 import { DynamicParallelPage } from "./components/DynamicParallel.page";
 import { DependentQueriesPage } from "./components/DependentQuerie.page";
 import { PaginatedQueriesPage } from "./components/PaginateQueryPage";
+import { InfinateQueriesPage } from "./components/InfiniteQueries";
 
 const queryClinet = new QueryClient();
 function App() {
@@ -43,6 +44,11 @@ function App() {
         </div>
       ),
     },
+    {
+      path: "infinitequeries",
+      element: <InfinateQueriesPage />,
+    },
+
 
     {
       path: "rq-pagination",

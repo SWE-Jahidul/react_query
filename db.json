@@ -1,80 +1,134 @@
 {
-    "superheros": [
-        {
-            "id": 1,
-            "name": "Batman",
-            "alterEgo": "Bruce Wayne"
-        },
-        {
-            "id": 2,
-            "name": "Superman",
-            "alterEgo": "Clark Kent"
-        },
-        {
-            "id": 3,
-            "name": "Wonder Women",
-            "alterEgo": "Princess Diana"
-        }
-    ],
-    "friends": [
-        {
-            "id": 1,
-            "name": "Chandler Bing "
-        },
-        {
-            "id": 2,
-            "name": "Joye Tribbiani"
-        },
-        {
-            "id": 3,
-            "name": "Rachel Green"
-        }
-    ],
-    "users": [
-        {
-            "id": "vishwas@example.com",
-            "channelId": "codevoluation"
-        }
-    ],
-    "channels": [
-        {
-            "id": "codevoluation",
-            "courses": [
-                "react",
-                "vue",
-                "angular"
-            ]
-        }
-    ],
-    "colors" :[
-        {
-            "id" :1 ,
-            "label" : "Red"
-        },
-        {
-            "id" :2 ,
-            "label" : "Blue"
-        },
-        {
-            "id" :3 ,
-            "label" : "Green"
-        },
-        {
-            "id" :4 ,
-            "label" : "Yellow"
-        },
-        {
-            "id" :5 ,
-            "label" : "Black"
-        },
-        {
-            "id" :6 ,
-            "label" : "purpole"
-        }
-        ,
-        {
-            "id" :7,
-            "label" : "white smoke "
-        }
-    ]
+  "superheros": [
+    {
+      "id": 1,
+      "name": "Batman",
+      "alterEgo": "Bruce Wayne"
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "alterEgo": "Clark Kent"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Women",
+      "alterEgo": "Princess Diana"
+    },
+    {
+      "name": "jahid",
+      "alterEgo": "asdfasdfg",
+      "id": 4
+    },
+    {
+      "name": "raju ",
+      "alterEgo": "raju ",
+      "id": 5
+    },
+    {
+      "name": "raju ",
+      "alterEgo": "raju ",
+      "id": 6
+    },
+    {
+      "name": "raju ",
+      "alterEgo": "raju ",
+      "id": 7
+    },
+    {
+      "name": "trt",
+      "alterEgo": "rt",
+      "id": 8
+    },
+    {
+      "name": "safiur",
+      "alterEgo": "safiur",
+      "id": 9
+    },
+    {
+      "name": "sakib",
+      "alterEgo": "asdffd",
+      "id": 10
+    },
+    {
+      "name": "yellow",
+      "alterEgo": "asdfsfgsfg",
+      "id": 11
+    },
+    {
+      "name": "test1",
+      "alterEgo": "szdfgsdgfsg",
+      "id": 12
+    },
+    {
+      "name": "test 3",
+      "alterEgo": "szdfgsdgfsg",
+      "id": 13
+    },
+    {
+      "name": "hhhh",
+      "alterEgo": "d",
+      "id": 14
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "Chandler Bing "
+    },
+    {
+      "id": 2,
+      "name": "Joye Tribbiani"
+    },
+    {
+      "id": 3,
+      "name": "Rachel Green"
+    }
+  ],
+  "users": [
+    {
+      "id": "vishwas@example.com",
+      "channelId": "codevoluation"
+    }
+  ],
+  "channels": [
+    {
+      "id": "codevoluation",
+      "courses": [
+        "react",
+        "vue",
+        "angular"
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "label": "Red"
+    },
+    {
+      "id": 2,
+      "label": "Blue"
+    },
+    {
+      "id": 3,
+      "label": "Green"
+    },
+    {
+      "id": 4,
+      "label": "Yellow"
+    },
+    {
+      "id": 5,
+      "label": "Black"
+    },
+    {
+      "id": 6,
+      "label": "purpole"
+    },
+    {
+      "id": 7,
+      "label": "white smoke "
+    }
+  ]
 }
